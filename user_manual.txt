@@ -1,0 +1,10 @@
+
+First, Clone the project from github to htdocs folder and then run the command in laravel folder by composer update command.
+Then run npm install command to job-task folder. 
+Make a database to mysql server name as job_task1.
+Then migrate the database with php artisan migrate:refresh --seed command to get a seeded database or run import the sql file.
+Then start xampp apache and mysql. Go to laravel folder and run the server by php artisan serve command. 
+Then we have to go to job-task folder and start with npm start command by the command window. 
+Then run with the browser using http://localhost:3000/ link. In the browser screen, we can get the datatable list. 
+We can add the todo data by clicking the add todo button. After clicking on add todo button we can get the form of todo. 
+We can add todo data from here. We can update and delete the data from the list page as well. 
